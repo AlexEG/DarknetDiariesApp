@@ -43,10 +43,35 @@
       id="main"
       class="h-[calc(100vh-14rem)] bg-black py-32 overflow-y-auto selection:text-black selection:bg-[#f00]"
     >
-      <div class="grid grid-cols-5 gap-4 max-w-7xl mx-auto"></div>
+      <div class="grid grid-cols-5 gap-4 max-w-7xl mx-auto">
+        <!--* -  -->
+        <div class="group relative rounded-sm overflow-hidden hidden">
+          <span
+            class="absolute z-10 top-1 left-0 text-[#f00] px-2 rounded-e-lg text-xs bg-black"
+          >
+            EP 55
+          </span>
+          <span
+            class="absolute top-1 left-10 text-[#f00] px-2 rounded-e-lg text-xs bg-black -translate-x-full group-hover:translate-x-0 transition-transform delay-75 duration-1000 whitespace-nowrap"
+          >
+            NOTPETYA
+          </span>
+          <span class="hidden">2019-12-24</span>
+          <span class="hidden"
+            >https://dcs.megaphone.fm/ADV7741006833.mp3?key=93e5b97ee08a967f068459577d75a582&amp;request_event_id=ae0aeca7-405c-4c93-8b7a-aa1e06b7c878</span
+          >
+          <img
+            src="./assets/Darknet-Diaries/ep55.jpg"
+            class="object-cover w-full h-full"
+          />
+        </div>
+        <!--* -  -->
+      </div>
     </main>
     <!-- -------------- -->
 
     <script src="preload.js"></script>
+    <script src="EpisodesData.js"></script>
+    <script src="renderer.js"></script>
   </body>
 </html>
