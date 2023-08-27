@@ -127,3 +127,48 @@ const EpisodesData = {
       "Operation Inherent Resolve was started in 2016 which aimed to combat ISIS. It was a combined joint task force lead by the US military. Operation Inherent Resolve sent troops, ships, and air strikes to Iraq and Syria to fire weapons upon ISIS military. It’s widely known that US military engaged with ISIS in this way. But what you may not have heard, is the story of how the US military also combated ISIS over the Internet. This is the story of how the US hacked ISIS and conducted Operation Glowing Symphony.",
   },
 };
+
+/*
+
+function getData() {
+  const [title, date, description] = [
+    document.querySelector("body > div.page  h1").textContent,
+    document.querySelector(
+      "body > div.page > div > section.hero.hero--single > div.wrap > p"
+    ).textContent,
+    document.querySelector(
+      "body > div.page > div > section.single > div > article > p:nth-child(5)"
+    ).textContent,
+  ];
+
+  return {ep: {
+    cover: `./assets/Darknet-Diaries/ep${title.slice(
+      3,
+      title.indexOf(":")
+    )}.jpg`,
+    title: title.slice(title.indexOf(":") + 2),
+    date: date.slice(0, date.indexOf("|")),
+    duration: date.slice(date.indexOf("|") + 2),
+    epNum: +title.slice(3, title.indexOf(":")),
+    audioSource: "",
+    description: description,
+  }};
+}
+getData();
+
+
+*/
+
+/*
+{
+    "ep": {
+        "cover": "./assets/Darknet-Diaries/ep50.jpg",
+        "title": "Operation Glowing Symphony",
+        "date": "29 October 2019 ",
+        "duration": "71:10",
+        "epNum": 50,
+        "audioSource": "",
+        "description": "Operation Inherent Resolve was started in 2016 which aimed to combat ISIS. It was a combined joint task force lead by the US military. Operation Inherent Resolve sent troops, ships, and air strikes to Iraq and Syria to fire weapons upon ISIS military. It’s widely known that US military engaged with ISIS in this way. But what you may not have heard, is the story of how the US military also combated ISIS over the Internet. This is the story of how the US hacked ISIS and conducted Operation Glowing Symphony."
+    }
+}
+*/
