@@ -6,7 +6,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
-    "dev": "npx tailwindcss -i ./src/index.css -o ./dist/index.css --watch",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./src/index.css --watch",
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
