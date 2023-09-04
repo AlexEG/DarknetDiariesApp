@@ -1,4 +1,4 @@
-const EpisodesData = {
+export default {
   ep60: {
     cover: "./assets/Darknet-Diaries/ep60.jpg",
     title: "dawgyg",

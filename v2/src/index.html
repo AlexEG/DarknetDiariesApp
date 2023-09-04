@@ -27,6 +27,34 @@
             <span id="header-ep-title" class="font-semibold text-white"
               >EP 123: NEWSWIRES</span
             >
+            <button
+              type="button"
+              id="audio-processing"
+              class="inline-flex items-center font-semibold text-sm shadow text-[#f00] select-none invisible"
+              disabled=""
+            >
+              <svg
+                class="animate-spin -ml-1 mr-3 h-5 w-5 text-white"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  class="opacity-25"
+                  cx="12"
+                  cy="12"
+                  r="10"
+                  stroke="#f00"
+                  stroke-width="4"
+                ></circle>
+                <path
+                  class="opacity-75"
+                  fill="#f00"
+                  d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+                ></path>
+              </svg>
+              Processing...
+            </button>
             <span id="header-ep-data" class="text-sm text-white/75"
               >06 September 2022</span
             >
@@ -49,6 +77,19 @@
           </article>
         </section>
       </div>
+
+      <button
+        id="pause-now"
+        class="absolute bottom-1 right-1 bg-purple-500 text-white"
+      >
+        Pause
+      </button>
+      <button
+        id="play-now"
+        class="absolute bottom-1 right-16 bg-purple-500 text-white"
+      >
+        play
+      </button>
     </header>
     <!-- -------------- -->
     <main
@@ -68,9 +109,9 @@
       </div>
     </main>
     <!-- -------------- -->
-
+    <span class="opacity-50 hidden"> </span>
     <script src="preload.js"></script>
-    <script src="EpisodesData.js"></script>
-    <script src="renderer.js"></script>
+
+    <script type="module" src="./renderer.js"></script>
   </body>
 </html>
