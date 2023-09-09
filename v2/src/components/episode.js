@@ -20,7 +20,7 @@ export default function episode(
       <span class="absolute z-10 top-1 left-0 text-[#f00] px-2 rounded-e-lg text-xs bg-black">
         EP ${epNum}
       </span>
-      <span class="absolute top-1 left-10 text-[#f00] px-2 rounded-e-lg text-xs bg-black -translate-x-full group-hover:translate-x-0 transition-transform delay-75 duration-1000 whitespace-nowrap">
+      <span class="absolute top-1 left-8 text-[#f00] pr-2 pl-4 rounded-e-lg text-xs bg-black -translate-x-full group-hover:translate-x-0 transition-transform delay-75 duration-1000 whitespace-nowrap">
         ${title}
       </span>
       
