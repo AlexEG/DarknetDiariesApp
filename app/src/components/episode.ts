@@ -1,11 +1,11 @@
 export default function episode(
-  cover,
-  title,
-  date,
-  duration,
-  epNum,
-  audioSource,
-  description
+  cover: string,
+  title: string,
+  date: string,
+  duration: string,
+  epNum: string,
+  audioSource: string,
+  description: string
 ) {
   return `
     <div 
@@ -20,10 +20,15 @@ export default function episode(
       <span class="absolute z-10 top-1 left-0 text-[#f00] px-2 rounded-e-lg text-xs bg-black">
         EP ${epNum}
       </span>
+
       <span class="absolute top-1 left-8 text-[#f00] pr-2 pl-4 rounded-e-lg text-xs bg-black -translate-x-full group-hover:translate-x-0 transition-transform delay-75 duration-1000 whitespace-nowrap">
         ${title}
       </span>
-      
+
+      <span class="absolute top-7 left-0 text-[#f00] px-2 rounded-e-lg text-xs bg-black -translate-x-full group-hover:translate-x-0 transition-transform delay-75 duration-1000 whitespace-nowrap">
+      ${duration}
+      </span>
+
       <img src=${cover} class="object-cover w-full h-full" />
 
       <button class="play-Pause-btn opacity-0 group-hover:opacity-100 absolute bottom-1.5 right-1.5 transition rounded-full hover:shadow-playPauseBtn ">
@@ -48,24 +53,34 @@ export default function episode(
         />
       </svg>
     </button>
+
+    <div class="absolute top-1 right-1 flex gap-1">
+
+    <button class="download-btn opacity-0 group-hover:opacity-100 transition-opacity">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 rounded-full transition delay-75 duration-500">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75l3 3m0 0l3-3m-3 3v-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+</button>
+
     <button
-            class="like-btn absolute top-1 right-1 opacity-0 group-hover:opacity-100 transition-opacity"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.0"
-              stroke="#f00"
-              class="w-6 h-6 rounded-full  transition delay-75 duration-500"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
-              />
-            </svg>
-          </button>
+    class="like-btn opacity-0 group-hover:opacity-100 transition-opacity"
+    >
+    <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke-width="1.0"
+    stroke="#f00"
+    class="w-6 h-6 rounded-full transition delay-75 duration-500"
+    >
+    <path
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
+    />
+    </svg>
+    </button>
+    </div>
 
     </div>
   `;

@@ -4,6 +4,7 @@ import playPauseBtnClickHandler from "./components/playPauseBtnClickHandler";
 import episode from "./components/episode";
 import EpisodesData from "./components/EpisodesData";
 import likeBtnClickHandler from "./components/likeBtnClickHandler";
+import DownloadBtn from "./components/DownloadBtnClickHandler";
 // ---------------------------- //
 
 const Main = document.querySelector("#main > div.grid");
@@ -35,3 +36,5 @@ for (const key in EpisodesData) {
 likeBtnClickHandler();
 
 playPauseBtnClickHandler();
+
+DownloadBtn();

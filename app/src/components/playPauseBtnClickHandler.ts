@@ -2,11 +2,8 @@ export default function playPauseBtnClickHandler() {
   // --- Btn UI --- //
   const playPauseBtn = document.querySelectorAll(".play-Pause-btn > svg");
 
-  const [play, pause] = [
-    `<path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-  <path stroke-linecap="round" stroke-linejoin="round" d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />`,
-    `<path stroke-linecap="round" stroke-linejoin="round" d="M14.25 9v6m-4.5 0V9M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />`,
-  ];
+  const play = `<path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />`;
 
   const [
     headerEpCover,
@@ -77,10 +74,9 @@ export default function playPauseBtnClickHandler() {
         btn.setAttribute("data-playing", "false");
       }
       // --- Btn Functionality --- //
-      const [title, date, duration, epNum, audioSource, description] = [
+      const [title, date, epNum, audioSource, description] = [
         btn.parentElement.parentElement.getAttribute("data-title"),
         btn.parentElement.parentElement.getAttribute("data-date"),
-        btn.parentElement.parentElement.getAttribute("data-duration"),
         btn.parentElement.parentElement.getAttribute("data-epNum"),
         btn.parentElement.parentElement.getAttribute("data-audioSource"),
         btn.parentElement.parentElement.getAttribute("data-description"),
@@ -88,7 +84,7 @@ export default function playPauseBtnClickHandler() {
 
       headerEpCover.setAttribute(
         "src",
-        `assets/Darknet-Diaries/ep${epNum}.jpg`
+        `./src/assets/Darknet-Diaries/ep${epNum}.jpg`
       );
       headerEpTitle.textContent = `EP ${epNum} : ${title}`;
       headerEpDate.textContent = date;

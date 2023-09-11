@@ -1,14 +1,16 @@
-export default function likeBtnClickHandler() {
-  const likedEps = document.querySelectorAll(".like-btn > svg");
+function DownloadBtnClickHandler() {
+  const DownloadBtns = document.querySelectorAll(".download-btn > svg");
 
-  if (!localStorage.getItem("likedEpisodes")) {
-    localStorage.setItem("likedEpisodes", JSON.stringify([]));
+  if (!localStorage.getItem("downloadedEpisodes")) {
+    localStorage.setItem("downloadedEpisodes", JSON.stringify([]));
   }
-  const LikedEpisodes = JSON.parse(localStorage.getItem("likedEpisodes"));
+  const DownloadedEpisodes = JSON.parse(
+    localStorage.getItem("downloadedEpisodes")
+  );
 
-  likedEps.forEach((btn) => {
+  DownloadBtns.forEach((btn) => {
     if (
-      LikedEpisodes.includes(
+      DownloadedEpisodes.includes(
         +btn.parentElement.parentElement.parentElement.getAttribute(
           "data-epNum"
         )
@@ -26,19 +28,19 @@ export default function likeBtnClickHandler() {
           )
         );
 
-        const updateLikedEpisodes = JSON.parse(
-          localStorage.getItem("likedEpisodes")
+        const updateDownloadedEpisodes = JSON.parse(
+          localStorage.getItem("downloadedEpisodes")
         );
 
-        updateLikedEpisodes.push(
+        updateDownloadedEpisodes.push(
           +btn.parentElement.parentElement.parentElement.getAttribute(
             "data-epNum"
           )
         );
 
         localStorage.setItem(
-          "likedEpisodes",
-          JSON.stringify(updateLikedEpisodes)
+          "downloadedEpisodes",
+          JSON.stringify(updateDownloadedEpisodes)
         );
 
         btn.setAttribute("fill", "red");
@@ -47,9 +49,11 @@ export default function likeBtnClickHandler() {
           "opacity-80"
         );
       } else {
-        const LikedEpisodes = JSON.parse(localStorage.getItem("likedEpisodes"));
+        const DownloadedEpisodes = JSON.parse(
+          localStorage.getItem("downloadedEpisodes")
+        );
 
-        const updateLikedEpisodes = LikedEpisodes.filter(
+        const updateDownloadedEpisodes = DownloadedEpisodes.filter(
           (ep: number) =>
             ep !==
             +btn.parentElement.parentElement.parentElement.getAttribute(
@@ -57,8 +61,8 @@ export default function likeBtnClickHandler() {
             )
         );
         localStorage.setItem(
-          "likedEpisodes",
-          JSON.stringify(updateLikedEpisodes)
+          "downloadedEpisodes",
+          JSON.stringify(updateDownloadedEpisodes)
         );
 
         btn.setAttribute("fill", "none");
@@ -66,3 +70,5 @@ export default function likeBtnClickHandler() {
     });
   });
 }
+
+export default DownloadBtnClickHandler;

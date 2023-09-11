@@ -1,4 +1,854 @@
 export default {
+  ep137: {
+    cover: "./src/assets/Darknet-Diaries/ep137.jpg",
+    title: "Predator",
+    date: "05 September 2023 ",
+    duration: "67:19",
+    epNum: 137,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV4528987985.mp3?key=3df1fa6671a44993cab568e725cf2a0b&request_event_id=3bf0b8dc-1423-469a-aff1-c1c8eead65f0",
+    description:
+      "A new type of mercenary spyware came on the radar called Predator. It’ll infect a mobile phone, and then suck up all the data from it. Contacts, text messages, location, and more. This malware is being sold to intelligence agencies around the world.",
+  },
+  ep136: {
+    cover: "./src/assets/Darknet-Diaries/ep136.jpg",
+    title: "Team Xecuter",
+    date: "01 August 2023 ",
+    duration: "85:25",
+    epNum: 136,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV8318757959.mp3?key=8853381046f236ed43a35bd14d84a4aa&request_event_id=93bfc756-9c1e-44a8-9a1e-c149fc0a7bdd",
+    description:
+      "Team Xecuter was a group involved with making and selling modchips for video game systems. They often made mods that allowed the video game system to rip games or play pirated games. It was a crowd favorite in the modding scene. Until it all fell apart. The story of what happened to Team Xecuter must be heard to believe.",
+  },
+  ep135: {
+    cover: "./src/assets/Darknet-Diaries/ep135.jpg",
+    title: "The D.R. Incident",
+    date: "04 July 2023 ",
+    duration: "42:32",
+    epNum: 135,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV4201720263.mp3?key=dbd6a1c79144dbaaf99f34b64a58a06c&request_event_id=8eba6286-5c08-463d-a9ef-5b553f5279cf",
+    description:
+      "Omar Avilez worked in the CSIRT of the Dominican Republic when a major cyber security incident erupted. Omar walks us through what happened and the incident response procedures that he went through.",
+  },
+  ep134: {
+    cover: "./src/assets/Darknet-Diaries/ep134.jpg",
+    title: "Deviant",
+    date: "06 June 2023 ",
+    duration: "87:06",
+    epNum: 134,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV4341835736.mp3?key=13d20628d63e953c56fe85d64ff1fbec&request_event_id=a982a88e-f277-45c1-bb9d-fa3d28484d5d",
+    description:
+      "Deviant Ollam is a physical penetration specialist. That means he’s paid to break into buildings to see if the building is secure or not. He has done this for a long time and has a lot of tricks up his sleeve to get into buidings. In this episode we hear 3 stories of him breaking into buildings for a living.",
+  },
+  ep133: {
+    cover: "./src/assets/Darknet-Diaries/ep133.jpg",
+    title: "I'm the Real Connor",
+    date: "02 May 2023 ",
+    duration: "39:16",
+    epNum: 133,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV1416247436.mp3?key=1c4aafa770097192a397f4e17d210e00&request_event_id=1c979f1c-eaa6-4931-a834-6d2f2331a500",
+    description:
+      "One day Connor Tumbleson got an email saying his identity has been stolen. And this was one of the strangest days he’s ever had.",
+  },
+  ep132: {
+    cover: "./src/assets/Darknet-Diaries/ep132.jpg",
+    title: "Sam the Vendor",
+    date: "04 April 2023 ",
+    duration: "76:55",
+    epNum: 132,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV5039649769.mp3?key=d42d623750962deb453a88b9e300401d&request_event_id=e27c66cc-3259-41a0-8397-2838e4164a40",
+    description:
+      "Sam Bent, a.k.a. DoingFedTime, brings us a story of what it was like being a darknet market vendor.",
+  },
+  ep131: {
+    cover: "./src/assets/Darknet-Diaries/ep131.jpg",
+    title: "Welcome To Video",
+    date: "27 December 2022 ",
+    duration: "68:16",
+    epNum: 131,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV3969892112.mp3?key=d7649fcff5a4109e210b4bca2ecd7011&request_event_id=b642eba6-41a8-4f7c-8b83-376d6826ee36",
+    description:
+      "Andy Greenberg brings us a gut wrenching story of how criminal investigators used bitcoin tracing techniques to try to find out who was at the center of a child sexual abuse darkweb website.",
+  },
+  ep130: {
+    cover: "./src/assets/Darknet-Diaries/ep130.jpg",
+    title: "Jason's Pen Test",
+    date: "13 December 2022 ",
+    duration: "43:44",
+    epNum: 130,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV5745749393.mp3?key=3a97f68fdb421ef71024594834db1a5d&request_event_id=d16a9039-160d-4de4-8f65-6dc926fec98d",
+    description:
+      "Join us as we sit down with Jason Haddix, a renowned penetration tester who has made a name for himself by uncovering vulnerabilities in some of the world’s biggest companies. In this episode, Jason shares his funny and enlightening stories about breaking into buildings and computers, and talks about the time he discovered a major security flaw in a popular mobile banking app.",
+  },
+  ep129: {
+    cover: "./src/assets/Darknet-Diaries/ep129.jpg",
+    title: "Gollumfun (Part 2)",
+    date: "29 November 2022 ",
+    duration: "78:48",
+    epNum: 129,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV1766068871.mp3?key=3c2c4fead085bc29e4ef1186bcf097b3&request_event_id=d15ce85d-c16b-40e5-bc76-d5748a8ce256",
+    description:
+      "Brett Johnson, AKA Gollumfun (twitter.com/GOllumfun) was involved with the websites Counterfeit Library and Shadow Crew. He tells his story of what happened there and some of the crimes he committed.",
+  },
+  ep128: {
+    cover: "./src/assets/Darknet-Diaries/ep128.jpg",
+    title: "Gollumfun (Part 1)",
+    date: "15 November 2022 ",
+    duration: "60:59",
+    epNum: 128,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV5294066483.mp3?key=031f103cc76d8b97a0523fd137eb81d2&request_event_id=17f015eb-0910-4cb5-a494-5c3c92aa42b3",
+    description:
+      "Brett Johnson, AKA Gollumfun (twitter.com/GOllumfun) was involved with the websites Counterfeit Library and Shadow Crew. He tells his story of what happened there and some of the crimes he committed.",
+  },
+  ep127: {
+    cover: "./src/assets/Darknet-Diaries/ep127.jpg",
+    title: "Maddie",
+    date: "01 November 2022 ",
+    duration: "54:04",
+    epNum: 127,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV5294066483.mp3?key=031f103cc76d8b97a0523fd137eb81d2&request_event_id=092b32da-6415-4b41-9eb5-59927fcb0446",
+    description:
+      "Maddie Stone is a security researcher for Google’s Project Zero. In this episode we hear what it’s like battling zero day vulnerabilities.",
+  },
+  ep126: {
+    cover: "./src/assets/Darknet-Diaries/ep126.jpg",
+    title: "REvil",
+    date: "18 October 2022 ",
+    duration: "63:53",
+    epNum: 126,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV9384364212.mp3?key=080d75f1446f79eb369c7f3fc7631fc0&request_event_id=b8b96364-c4ac-4215-b35a-f466768342b2",
+    description:
+      "REvil is the name of a ransomware service as well as a group of criminals inflicting ransomware onto the world. Hear how this ransomware shook the world.",
+  },
+  ep125: {
+    cover: "./src/assets/Darknet-Diaries/ep125.jpg",
+    title: "Jeremiah",
+    date: "04 October 2022 ",
+    duration: "49:14",
+    epNum: 125,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV5104559264.mp3?key=f508b2cf1cf4bf13c01f41616a6a1054&request_event_id=1558dafa-5fa5-4d3e-b369-5ad4f73d8d39",
+    description:
+      "Jeremiah Roe is a seasoned penetration tester. In this episode he tells us about a time when he had to break into a building to prove it wasn’t as secure as the company thought.",
+  },
+  ep124: {
+    cover: "./src/assets/Darknet-Diaries/ep124.jpg",
+    title: "Synthetic Remittance",
+    date: "20 September 2022 ",
+    duration: "18:01",
+    epNum: 124,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV8883406591.mp3?key=aa47d4009e76dcadd850798504112107&request_event_id=6297cc90-c733-4639-9f2f-d10df329d572",
+    description:
+      "What do you get when you combine social engineering, email, crime, finance, and the money stream flowing through big tech? Evaldas Rimašauskas comes to mind. He combined all these to make his big move. A whale of a move.",
+  },
+  ep123: {
+    cover: "./src/assets/Darknet-Diaries/ep123.jpg",
+    title: "Newswires",
+    date: "06 September 2022 ",
+    duration: "49:02",
+    epNum: 123,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV6134480241.mp3?key=09d49be3e1cbd8f6195363ad678dcb0a&request_event_id=8b1944f8-c701-4a0e-a242-d5ae0e34cfc1",
+    description:
+      "Investing in the stock market can be very profitable. Especially if you can see into the future. This is a story of how a group of traders and hackers got together to figure out a way to see into the future and make a lot of money from that.",
+  },
+  ep122: {
+    cover: "./src/assets/Darknet-Diaries/ep122.jpg",
+    title: "Lisa",
+    date: "23 August 2022 ",
+    duration: "49:19",
+    epNum: 122,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV1889798570.mp3?key=478fa4fff596768fff8dcaa571b5c3e9&request_event_id=fc1049bf-9fab-4da8-9ac6-808f4855dec1",
+    description:
+      "In this episode we hear some insider threat stories from Lisa Forte.",
+  },
+  ep121: {
+    cover: "./src/assets/Darknet-Diaries/ep121.jpg",
+    title: "Ed",
+    date: "26 July 2022 ",
+    duration: "41:51",
+    epNum: 121,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV8575485155.mp3?key=49ba7c6841e7ee30f5868d49442793bd&request_event_id=c16efff9-2eb0-4ab4-a2fa-0b8102f4fbfe",
+    description:
+      "In this episode we hear some penetration test stories from Ed Skoudis (twitter.com/edskoudis). We also catch up with Beau Woods (twitter.com/beauwoods) from I am The Cavalry (iamthecavalry.org).",
+  },
+  ep120: {
+    cover: "./src/assets/Darknet-Diaries/ep120.jpg",
+    title: "Voulnet",
+    date: "28 June 2022 ",
+    duration: "32:45",
+    epNum: 120,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV4496618276.mp3?key=2271298c4ead9d4c463ac6324999993d&request_event_id=ff10b696-bb4d-4895-81c7-0cf87f9342f7",
+    description:
+      "This is the story about when Mohammed Aldoub, AKA Voulnet, (twitter.com/Voulnet) found a vulnerability on VirusTotal and Tweeted about it.",
+  },
+  ep119: {
+    cover: "./src/assets/Darknet-Diaries/ep119.jpg",
+    title: "Hot Wallets",
+    date: "14 June 2022 ",
+    duration: "57:24",
+    epNum: 119,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV7854332536.mp3?key=61f8d65e6578c077d6977a9708bb3c24&request_event_id=29419057-0f26-4592-81b8-edbb56f4482d",
+    description:
+      "In this episode we hear from journalist Geoff White who talks about some of the recent crypto currency heists that have been happening. Geoff has been tracking a group of thieves for some time and shares his knowledge of what he’s found.",
+  },
+  ep118: {
+    cover: "./src/assets/Darknet-Diaries/ep118.jpg",
+    title: "Hot Swaps",
+    date: "31 May 2022 ",
+    duration: "86:16",
+    epNum: 118,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV6115005049.mp3?key=380c3b1af0fb5182098e0dc7f622be3d&request_event_id=96558899-8573-491f-aac5-74fe979d6e68",
+    description:
+      "This is the story of Joseph Harris (https://twitter.com/akad0c). When he was a young teen he got involved with stealing video game accounts and selling them for money. This set him on a course where he flew higher and higher until he got burned.",
+  },
+  ep117: {
+    cover: "./src/assets/Darknet-Diaries/ep117.jpg",
+    title: "Daniel the Paladin",
+    date: "17 May 2022 ",
+    duration: "69:28",
+    epNum: 117,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV2250596204.mp3?key=a820c293284f696f2ada231c4d51ddac&request_event_id=e6addb1b-89b7-4b69-b782-f449797ebd83",
+    description:
+      "Daniel Kelley (https://twitter.com/danielmakelley) was equal parts mischievousness and clever when it came to computers. Until the day his mischief overtook his cleverness.",
+  },
+  ep116: {
+    cover: "./src/assets/Darknet-Diaries/ep116.jpg",
+    title: "Mad Dog",
+    date: "03 May 2022 ",
+    duration: "73:34",
+    epNum: 116,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV2538375998.mp3?key=00cd95e44a2f1cc1af2d8f3bf19490f8&request_event_id=cae362ff-8b76-4b84-9604-ffffa3fb9884",
+    description:
+      "Jim Lawler, aka “Mad Dog”, was a CIA case officer for 25 years. In this episode we hear some of the stories he has and things he did while working in the CIA.",
+  },
+  ep115: {
+    cover: "./src/assets/Darknet-Diaries/ep115.jpg",
+    title: "Player Cheater Developer Spy",
+    date: "19 April 2022 ",
+    duration: "38:45",
+    epNum: 115,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV5807261804.mp3?key=f2f345fb35fad794f21de04d426d3337&request_event_id=c48eb709-dbba-4515-8a49-e10666a644a8",
+    description:
+      "Some video game players buy cheats to win. Let’s take a look at this game cheating industry to see who the players are.",
+  },
+  ep114: {
+    cover: "./src/assets/Darknet-Diaries/ep114.jpg",
+    title: "HD",
+    date: "05 April 2022 ",
+    duration: "75:52",
+    epNum: 114,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV5343057961.mp3?key=9d04415070de1435e94b2dcc46cab670&request_event_id=f42332a5-81df-4a1f-bbc1-d1d6e795af4f",
+    description:
+      "HD Moore (https://twitter.com/hdmoore) invented a hacking tool called Metasploit. He crammed it with tons of exploits and payloads that can be used to hack into computers. What could possibly go wrong? Learn more about what HD does today by visiting rumble.run/.",
+  },
+  ep113: {
+    cover: "./src/assets/Darknet-Diaries/ep113.jpg",
+    title: "Adam",
+    date: "21 March 2022 ",
+    duration: "51:04",
+    epNum: 113,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV2650836711.mp3?key=26869a90ac8a508d3fd6e39b7d31fe1c&request_event_id=f74459c0-2637-46e6-8cd7-70373bc08988",
+    description:
+      "Adam got a job doing IT work at a learning academy. He liked it and was happy there and feeling part of the team. But a strange series of events took him in another direction, that definitely didn’t make him happy.",
+  },
+  ep112: {
+    cover: "./src/assets/Darknet-Diaries/ep112.jpg",
+    title: "Dirty Coms",
+    date: "08 March 2022 ",
+    duration: "91:29",
+    epNum: 112,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV7712059188.mp3?key=b6fbccfe3a996c6adf88e857a1aab1a6&request_event_id=573c460e-e70d-4888-999b-0e7bec5b062d",
+    description:
+      "This episode we talk with a guy named “Drew” who gives us a rare peek into what some of the young hackers are up to today. From listening to Drew, we can see that times are changing for the motive behind hacking. In the ’90s and ’00s it was done for fun and curiosity. In the ’10s Anonymous showed us what Hacktivism is. And now, in the ’20s, the young hackers seem to be profit driven.",
+  },
+  ep111: {
+    cover: "./src/assets/Darknet-Diaries/ep111.jpg",
+    title: "ZeuS",
+    date: "22 February 2022 ",
+    duration: "48:35",
+    epNum: 111,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV9963994302.mp3?key=d2a0184b577cfd7d96ad7a2872866e43&request_event_id=ad789213-911c-4867-b45c-253c524e9e08",
+    description:
+      "ZeuS is a banking trojan. Designed to steal money from online bank user’s accounts. This trojan became so big, that it resulted in one of the biggest FBI operations ever.",
+  },
+  ep110: {
+    cover: "./src/assets/Darknet-Diaries/ep110.jpg",
+    title: "Spam Botnets",
+    date: "08 February 2022 ",
+    duration: "69:09",
+    epNum: 110,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV1493915926.mp3?key=6cf58bf2065c7d8cda020692e3285117&request_event_id=363ec3f9-d2c7-43f4-86cc-a76356aee94b",
+    description:
+      "This episode tells the stories of some of the worlds biggest spamming botnets. We’ll talk about the botnets Rustock, Waledac, and Cutwail. We’ll discover who was behind them, what their objectives were, and what their fate was.",
+  },
+
+  ep109: {
+    cover: "./src/assets/Darknet-Diaries/ep109.jpg",
+    title: "TeaMp0isoN",
+    date: "25 January 2022 ",
+    duration: "60:07",
+    epNum: 109,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV6664884913.mp3?key=0fa32a802667e69eccd8eb2c9d60e57b&request_event_id=a561c7c7-df2c-484f-a5b2-8de3feed3343",
+    description:
+      "TeaMp0isoN was a hacking group that was founded by TriCk and MLT (twitter.com/0dayWizard). They were responsible for some high profile hacks. But in this story it’s not the rise that’s most interesting. It’s the fall.",
+  },
+  ep108: {
+    cover: "./src/assets/Darknet-Diaries/ep108.jpg",
+    title: "Marq",
+    date: "11 January 2022 ",
+    duration: "46:03",
+    epNum: 108,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV2790084272.mp3?key=7677d102699dc2500360a27179c06e86&request_event_id=94f4009d-d12c-4622-bf39-03d92163d2a3",
+    description:
+      "This is the story of Marq (twitter.com/dev_null321). Which involves passwords, the dark web, and police.",
+  },
+
+  ep107: {
+    cover: "./src/assets/Darknet-Diaries/ep107.jpg",
+    title: "Alethe",
+    date: "21 December 2021 ",
+    duration: "57:18",
+    epNum: 107,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV5908142573.mp3?key=46210ce6101389eddc104132a9aeee6a&request_event_id=78399b87-9b98-4ca7-a038-47215c306201",
+    description:
+      "Alethe (https://twitter.com/AletheDenis) is a social engineer. Professionally she tries to trick people to give her passwords and access that she shouldn’t have. But her journey to this point is interesting and in this episode she tells us how she became a social engineer.",
+  },
+  ep106: {
+    cover: "./src/assets/Darknet-Diaries/ep106.jpg",
+    title: "@Tennessee",
+    date: "07 December 2021 ",
+    duration: "47:39",
+    epNum: 106,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV7302306425.mp3?key=d6d613d9c8c16a011542c961495e8861&request_event_id=429b54c4-a725-4297-9012-a663ea3db031",
+    description:
+      "How much online abuse are you willing to take before you decide to let your abuser have what they want? Unfortunately, this is a decision that many people have to ask themselves. Consider, the wrench attack, as outlined by this xkcd comic.",
+  },
+  ep105: {
+    cover: "./src/assets/Darknet-Diaries/ep105.jpg",
+    title: "Secret Cells",
+    date: "23 November 2021 ",
+    duration: "70:27",
+    epNum: 105,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV1226932290.mp3?key=9182c4b1eaca57aacbfe42edb0c879db&request_event_id=d139ef2a-f58c-455e-84db-3e1abaf9c25c",
+    description:
+      "Joseph Cox, Senior Staff Writer at Motherboard, joins us to talk about the world of encrypted phones.",
+  },
+  ep104: {
+    cover: "./src/assets/Darknet-Diaries/ep104.jpg",
+    title: "Arya",
+    date: "09 November 2021 ",
+    duration: "79:41",
+    epNum: 104,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV6801308101.mp3?key=e48813684b1b67414f8043d717ae7c01&request_event_id=341421eb-439f-4daf-bc90-8e9c07dd9a59",
+    description:
+      "Arya Ebrahami has had quite a personal relationship with darknet marketplaces. In this episode you’ll hear about his adventures on tor.",
+  },
+  ep103: {
+    cover: "./src/assets/Darknet-Diaries/ep103.jpg",
+    title: "Cloud Hopper",
+    date: "26 October 2021 ",
+    duration: "52:25",
+    epNum: 103,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV2735143955.mp3?key=ac7b35a6f20050b56a3d2bd1ede8c939&request_event_id=b3560d31-5b28-493e-a5fe-245b076f3c22",
+    description:
+      "Fabio Viggiani is an incident responder. In this episode he talks about the story when one of his clients were breached.",
+  },
+  ep102: {
+    cover: "./src/assets/Darknet-Diaries/ep102.jpg",
+    title: "Money Maker",
+    date: "12 October 2021 ",
+    duration: "79:41",
+    epNum: 102,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV5244291503.mp3?key=3f32bca3619f4eed1ee139058f376fbd&request_event_id=9776052d-17d7-483f-82bc-45623eb7c876",
+    description:
+      "Frank Bourassa had an idea. He was going to make money. Literally. Listen to the story of a master counterfeiter.",
+  },
+  ep101: {
+    cover: "./src/assets/Darknet-Diaries/ep101.jpg",
+    title: "Lotería",
+    date: "28 September 2021 ",
+    duration: "70:52",
+    epNum: 101,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV9779985206.mp3?key=da236adc61440ffdc4992b244a2eb771&request_event_id=e95e163f-5be9-47a1-bb8f-2c6a97f8ef46",
+    description:
+      "In 2014 the Puerto Rico Lottery was mysteriously losing money. Listen to this never before told story about what happened and who did it.",
+  },
+  ep100: {
+    cover: "./src/assets/Darknet-Diaries/ep100.jpg",
+    title: "NSO",
+    date: "31 August 2021 ",
+    duration: "69:25",
+    epNum: 100,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV2429533184.mp3?key=19f386c5bf469124eb850a9ea6209b39&request_event_id=e830e631-4a0e-4908-a93a-f23f1638c2de",
+    description:
+      "The NSO Group creates a spyware called Pegasus which gives someone access to the data on a mobile phone. They sell this spyware to government agencies around the world. How is it used and what kind of company is the NSO Group?",
+  },
+  ep99: {
+    cover: "./src/assets/Darknet-Diaries/ep99.jpg",
+    title: "The Spy",
+    date: "17 August 2021 ",
+    duration: "71:34",
+    epNum: 99,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV3785322342.mp3?key=7e295832e77c196e99514e7355386472&request_event_id=679bbfc4-f801-4a55-a5a1-905f2d6d7dbf",
+    description:
+      "Igor works as a private investigator in NYC. He’s often sitting in cars keeping a distant eye on someone with binoculars. Or following someone through the busy streets of New York. In this episode we hear about a time when Igor was on a case but sensed that something wasn’t right.",
+  },
+  ep98: {
+    cover: "./src/assets/Darknet-Diaries/ep98.jpg",
+    title: "Zero Day Brokers",
+    date: "03 August 2021 ",
+    duration: "50:13",
+    epNum: 98,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV2689882970.mp3?key=2b1e2ae01c1b05d7da13e426bad06e13&request_event_id=d9dab1f2-b922-4c0a-b153-2b2373be04c8",
+    description:
+      "Zero day brokers are people who make or sell malware that’s sold to people who will use that malware to exploit people. It’s a strange and mysterious world that not many people know a lot about. Nicole Perlroth, who is a cybersecurity reporter for the NY Times, dove in head first which resulted in her writing a whole book on it.",
+  },
+  ep97: {
+    cover: "./src/assets/Darknet-Diaries/ep97.jpg",
+    title: "The Pizza Problem",
+    date: "20 July 2021 ",
+    duration: "45:19",
+    epNum: 97,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV1180047426.mp3?key=80cb0a74614a01f3c61c1fd6549181a3&request_event_id=009d97f8-7adf-478e-b3d2-c18fcefc31ca",
+    description:
+      "What if someone wanted to own your Instagram account? Not just control it, but make it totally theirs. This episode tells the story of how someone tried to steal an Instagram account from someone.",
+  },
+  ep96: {
+    cover: "./src/assets/Darknet-Diaries/ep96.jpg",
+    title: "The Police Station Incident",
+    date: "05 July 2021 ",
+    duration: "53:26",
+    epNum: 96,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV5244135479.mp3?key=edf6e3e4a3fdf1165f965a593053d62b&request_event_id=570888bf-22b8-49df-b033-85d235b0e0ab",
+    description:
+      "Nicole Beckwith wears a lot of hats. She’s a programmer, incident responder, but also a cop and a task force officer with the Secret Service. In this episode she tells a story which involves all of these roles.",
+  },
+  ep95: {
+    cover: "./src/assets/Darknet-Diaries/ep95.jpg",
+    title: "Jon & Brian's Big Adventure",
+    date: "22 June 2021 ",
+    duration: "74:11",
+    epNum: 95,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV7510154272.mp3?key=12814c728896f70170fff23df2c642e2&request_event_id=e3a2b091-fe64-45c5-af6a-2c343323a8af",
+    description:
+      "Jon and Brian are penetration testers who both worked at a place called RedTeam Security. They’re paid to break into buildings and hack into networks to test the security of those buildings. In this episode they bring us a story of how they prepare and execute a mission like this. But even with all the preparation, something still goes terribly wrong.",
+  },
+  ep94: {
+    cover: "./src/assets/Darknet-Diaries/ep94.jpg",
+    title: "Mariposa Botnet",
+    date: "08 June 2021 ",
+    duration: "44:08",
+    epNum: 94,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV3093716691.mp3?key=9d171f2d2dffd253ec1cc25d284cfef8&request_event_id=1b23c7d3-be40-4c02-9be7-1f7fefe921e7",
+    description:
+      "Chris Davis has been stopping IT security threats for decades. He’s currently running the company Hyas that he started. In this episode he tells a few tales of some threats that he helped stop.",
+  },
+  ep93: {
+    cover: "./src/assets/Darknet-Diaries/ep93.jpg",
+    title: "Kik",
+    date: "25 May 2021 ",
+    duration: "91:58",
+    epNum: 93,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV4447917089.mp3?key=88e5858de3c87c29df76be09f3a6b5d2&request_event_id=7a6222d5-3159-47d3-9b8a-9041b1e65eb3",
+    description:
+      "Kik is a wildly popular chat app. Their website says that 1 in 3 American teenagers use Kik. But something dark is brewing on Kik.",
+  },
+  ep92: {
+    cover: "./src/assets/Darknet-Diaries/ep92.jpg",
+    title: "The Pirate Bay",
+    date: "11 May 2021 ",
+    duration: "103:54",
+    epNum: 92,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV9344301193.mp3?key=ed4dc1c5e9295ceb12e354023d870e8d&request_event_id=526ff07a-2a9f-495c-9f13-115eb59a7b6a",
+    description:
+      "The Pirate Bay is a website, a search engine, which has an index of torrent files. A lot of copyrighted material is listed on the site, but the site doesn’t store any of the copyrighted material. It just points the user to where you can download it from. So for a while The Pirate Bay has been the largest places you can find pirated movies, music, games, and apps. But this site first came up 2003. And is still up and operation now, 18 years later! You would think someone would shut this place down by now. How does the biggest source for copyrighted material stay up and online for that long? Listen to this episode to find out.",
+  },
+  ep91: {
+    cover: "./src/assets/Darknet-Diaries/ep91.jpg",
+    title: "webjedi",
+    date: "27 April 2021 ",
+    duration: "56:52",
+    epNum: 91,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV9135149014.mp3?key=9f42bd638c704df079aeb99b8f33d358&request_event_id=89712680-f62c-4520-8a31-7868f2209614",
+    description:
+      "What happens when an unauthorized intruder gets into the network of a major bank? Amélie Koran, aka webjedi, was there for one of these intrusions and tells us the story of what happened.",
+  },
+  ep90: {
+    cover: "./src/assets/Darknet-Diaries/ep90.jpg",
+    title: "Jenny",
+    date: "13 April 2021 ",
+    duration: "69:17",
+    epNum: 90,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV6338690831.mp3?key=3ecebdf8e8d0dffa2123348ea9ba5f0e&request_event_id=900e7fd6-38dc-4831-af8b-ca5ef481919c",
+    description:
+      "Meet Jenny Radcliffe, the People Hacker. She’s a social engineer and physical penetration tester. Which means she gets paid to break into buildings and test their security. In this episode she tells us a few stories of some penetration testing jobs she’s done.",
+  },
+  ep89: {
+    cover: "./src/assets/Darknet-Diaries/ep89.jpg",
+    title: "Cybereason: Molerats in the Cloud",
+    date: "06 April 2021 ",
+    duration: "57:35",
+    epNum: 89,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV5669454087.mp3?key=cd26bd591aa41dba218347aeaf12ac5f&request_event_id=24f9a76f-45d1-458b-918f-1334e2998c2f",
+    description:
+      "The threat research team at Cybereason uncovered an interesting piece of malware. Studied it and tracked it. Which lead them to believe they were dealing with a threat actor known as Molerats.",
+  },
+  ep88: {
+    cover: "./src/assets/Darknet-Diaries/ep88.jpg",
+    title: "Victor",
+    date: "30 March 2021 ",
+    duration: "42:34",
+    epNum: 88,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV8060916299.mp3?key=4e6d29e31ac045ee152081718a62cb88&request_event_id=9021f016-9d39-4917-bfbd-478c2c3540ce",
+    description:
+      "Victor looks for vulnerabilities on the web and reports them responsibly. This is the story about discloser number 5780.",
+  },
+  ep87: {
+    cover: "./src/assets/Darknet-Diaries/ep87.jpg",
+    title: "Guild of the Grumpy Old Hackers",
+    date: "16 March 2021 ",
+    duration: "47:53",
+    epNum: 87,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV7707100402.mp3?key=e1d765d0e2cffbfd6d128ec2dd945601&request_event_id=2a33f5db-9d77-4559-b26d-8105c74008f6",
+    description:
+      "In 2016 the LinkedIn breach data became available to the public. What the Guild of the Grumpy Old Hackers did with it then is quite the story. Listen to Victor, Edwin, and Mattijs tell their story.",
+  },
+  ep86: {
+    cover: "./src/assets/Darknet-Diaries/ep86.jpg",
+    title: "The LinkedIn Incident",
+    date: "02 March 2021 ",
+    duration: "51:49",
+    epNum: 86,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV4528606086.mp3?key=512f09504c999ec38cb2f0528b93a91d&request_event_id=c45f02c4-0b6d-4ca7-b63d-ee2d8a0a64bb",
+    description:
+      "In 2012, LinkedIn was the target of a data breach. A hacker got in and stole millions of user details. Username and password hashes were then sold to people willing to buy. This episode goes over the story of what happened.",
+  },
+  ep85: {
+    cover: "./src/assets/Darknet-Diaries/ep85.jpg",
+    title: "Cam the Carder",
+    date: "16 February 2021 ",
+    duration: "76:34",
+    epNum: 85,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV1623934512.mp3?key=84c5108f8d269510c2fc07229d317545&request_event_id=33b1aac4-e897-4675-a87c-77e3480ae1d5",
+    description:
+      "This is the story of Cam Harrison, aka “kilobit” and his rise and fall as a prominent carder.",
+  },
+  ep84: {
+    cover: "./src/assets/Darknet-Diaries/ep84.jpg",
+    title: "Jet-setters",
+    date: "02 February 2021 ",
+    duration: "72:20",
+    epNum: 84,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV4942283554.mp3?key=9b602cfed4ed0b2775c5cc9289f00d1d&request_event_id=6a234b23-d920-42b4-a383-9eafeddfc512",
+    description:
+      "How bad is it if you post your boarding pass on Instagram? Our guest, “Alex” decides to figure this out for themself and has quite a story about what happened. You can read more from “Alex” on their blog https://mango.pdf.zone.",
+  },
+  ep83: {
+    cover: "./src/assets/Darknet-Diaries/ep83.jpg",
+    title: "NSA Cryptologists",
+    date: "19 January 2021 ",
+    duration: "82:56",
+    epNum: 83,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV9231072845.mp3?key=4ce9b97e34ea932d75ee880caf3f57bb&request_event_id=46a98d41-3446-41d1-a782-dc72525f6863",
+    description:
+      "In this episode we interview two NSA Cryptologists, Marcus J. Carey and Jeff Man. We hear their story of how they got into the NSA and what they did while there.",
+  },
+  ep82: {
+    cover: "./src/assets/Darknet-Diaries/ep82.jpg",
+    title: "Master of Pwn",
+    date: "05 January 2021 ",
+    duration: "65:09",
+    epNum: 82,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV2643452814.mp3?key=9fa10ffc3df3e11d7abeb4aaad2240ae&request_event_id=98591374-f03c-4b3c-98a9-4a4d052a3314",
+    description:
+      "The Zero Day Initiative runs a hacker contest called Pwn2Own. The contest calls the best hackers in the world to demonstrate they can hack into software that should be secure. Like browsers, phones, and even cars. A lot of vulnerabilities are discovered from this event which means vendors must fix them. Whoever can demonstrate the most vulnerabilities will be crowned the “Master of Pwn”.",
+  },
+  ep81: {
+    cover: "./src/assets/Darknet-Diaries/ep81.jpg",
+    title: "The Vendor",
+    date: "22 December 2020 ",
+    duration: "77:59",
+    epNum: 81,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV5381316822.mp3?key=dc144a376accc3f3f3bc6cef54931a3a&request_event_id=9550b33a-ba6e-468b-bba7-7315ce6f2990",
+    description:
+      "This is the story of a darknet marketplace vendor we’ll name V. He tells his story of how he first became a buyer, then transitioned into seller.",
+  },
+  ep80: {
+    cover: "./src/assets/Darknet-Diaries/ep80.jpg",
+    title: "The Whistleblower",
+    date: "08 December 2020 ",
+    duration: "50:10",
+    epNum: 80,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV9145504181.mp3?key=a473182e6f9cb08c62d3c4e337fc3121&request_event_id=a621bcc9-32fa-49eb-b78d-49f6c2994383",
+    description:
+      "In this episode we hear a story from a social engineer who’s job it is to get people to do things they don’t want to do. Why? For profit.",
+  },
+  ep79: {
+    cover: "./src/assets/Darknet-Diaries/ep79.jpg",
+    title: "Dark Basin",
+    date: "24 November 2020 ",
+    duration: "56:18",
+    epNum: 79,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV4345070838.mp3?key=490efa4496bd49a11af6dcf6b4037a7b&request_event_id=692d401a-d7c3-4de3-9a57-7b579c8ef1d3",
+    description:
+      "What do you do when you find yourself the target of a massive hacking campaign, and you are getting thousands of phishing emails and someone keeps following you in your car? You might turn to Citizen Lab who has the ability to research who is behind this and help bring the hackers to justice.",
+  },
+  ep78: {
+    cover: "./src/assets/Darknet-Diaries/ep78.jpg",
+    title: "Nerdcore",
+    date: "10 November 2020 ",
+    duration: "78:08",
+    epNum: 78,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV8112097820.mp3?key=288f67d7f3c8911a53880ae0b655c010&request_event_id=9bd0734d-57d6-4f83-b66b-e91132a855ec",
+    description:
+      "Nerdcore music is music for nerds. In this episode we hear from some of the musicians who make Nerdcore music.",
+  },
+  ep77: {
+    cover: "./src/assets/Darknet-Diaries/ep77.jpg",
+    title: "Olympic Destroyer",
+    date: "27 October 2020 ",
+    duration: "47:02",
+    epNum: 77,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV2164178070.mp3?key=6325727f0ebedc5318d90cdf18270609&request_event_id=47d7712b-67b6-43b3-ad6e-ff3fadb1a7f4",
+    description:
+      "In February 2018, during the Winter Olympics in Pyeongchang South Korea, a cyber attack struck, wiping out a lot of the Olympic’s digital infrastructure. Teams rushed to get things back up, but it was bad. Malware had repeatedly wiped the domain controllers rendering a lot of the network unusable. Who would do such a thing?",
+  },
+  ep76: {
+    cover: "./src/assets/Darknet-Diaries/ep76.jpg",
+    title: "Knaves Out",
+    date: "13 October 2020 ",
+    duration: "85:32",
+    epNum: 76,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV1107638673.mp3?key=4f422658bcb33f9c173383f1be62fd20&request_event_id=c0509dc2-bb7c-450e-b8ac-3d1a64e44e02",
+    description:
+      "This is the story about how someone hacked into JP Morgan Chase, one of the biggest financial institutions in the world. It’s obvious why someone would want to break into a bank right? Well the people who hacked into this bank, did not do it for obvious reasons. The hackers are best described as knaves. Which are tricky, deceitful fellows.",
+  },
+  ep75: {
+    cover: "./src/assets/Darknet-Diaries/ep75.jpg",
+    title: "Compromised Comms",
+    date: "29 September 2020 ",
+    duration: "35:07",
+    epNum: 75,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV9562990670.mp3?key=c2a1ac6d06c7ce17e246382d299ce776&request_event_id=6e26ebc8-2f52-45de-aae7-b647d32e7564",
+    description:
+      "From 2009 to 2013 the communication channels the CIA uses to contact assets in foreign countries was compromised. This had terrifying consequences.",
+  },
+  ep74: {
+    cover: "./src/assets/Darknet-Diaries/ep74.jpg",
+    title: "Mikko",
+    date: "15 September 2020 ",
+    duration: "69:51",
+    epNum: 74,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV9560633919.mp3?key=2f4bd4f53376b48f64fc741e5aecfadf&request_event_id=def1cc9b-3624-4084-85fa-3cd80e69d524",
+    description:
+      "Poker is a competitive game. Unlike other casino games, poker is player vs player. Criminal hackers have understood this for a while and sometimes hack the other players to get an edge. And that small edge can result in millions of dollars in winnings.",
+  },
+  ep73: {
+    cover: "./src/assets/Darknet-Diaries/ep73.jpg",
+    title: "WannaCry",
+    date: "01 September 2020 ",
+    duration: "44:51",
+    epNum: 73,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV7382284189.mp3?key=f616d332ecd883d5cad8048a25461133&request_event_id=f41ee626-3399-4572-b9b6-eb2bb37b897d",
+    description:
+      "It is recommend to listen to episodes 53 “Shadow Brokers”, 71 “FDFF”, and 72 “Bangladesh Bank Heist” before listening to this one.",
+  },
+  ep72: {
+    cover: "./src/assets/Darknet-Diaries/ep72.jpg",
+    title: "Bangladesh Bank Heist",
+    date: "18 August 2020 ",
+    duration: "36:47",
+    epNum: 72,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV1973937923.mp3?key=638767676c46eb3378250997a1daf0f1&request_event_id=4410d866-ccf9-48a1-80b8-dc47a59c117b",
+    description:
+      "This story is about a bank robbery with the objective to steal 1 billion dollars. Which makes this the largest bank robbery in history. And it was all done over a computer.",
+  },
+  ep71: {
+    cover: "./src/assets/Darknet-Diaries/ep71.jpg",
+    title: "Information Monopoly",
+    date: "04 August 2020 ",
+    duration: "68:10",
+    epNum: 71,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV2669975277.mp3?key=fc7c665a0bd1b1dbd63f25056d511bdf&request_event_id=f713b3c4-6712-41af-8daa-ec00d0d2cb80",
+    description:
+      "In this episode, we’re going into the depths of North Korea to conduct one of the greatest hacks of all time. To find a way to inject information into a country run by totalitarian regime.",
+  },
+  ep70: {
+    cover: "./src/assets/Darknet-Diaries/ep70.jpg",
+    title: "Ghost Exodus",
+    date: "21 July 2020 ",
+    duration: "56:31",
+    epNum: 70,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV9182058840.mp3?key=3eec34389798c436c22a175478daf3b9&request_event_id=d885e3f9-ce57-4171-b599-44ed2e3dd996",
+    description:
+      "Ghost Exodus is a hacker. He conducted various illegal activities online. Some of which he documents on YouTube. He’s also a great musician. He got into some trouble from his hacking. This is his story.",
+  },
+  ep69: {
+    cover: "./src/assets/Darknet-Diaries/ep69.jpg",
+    title: "Human Hacker",
+    date: "07 July 2020 ",
+    duration: "64:44",
+    epNum: 69,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV1901582165.mp3?key=914f7a3c7146e7cbe74b5625f41f6f41&request_event_id=9b9483df-bf1f-4781-892f-addcad2db164",
+    description:
+      "We all know that computers and networks are vulnerable to hacking and malicious actors, but what about us, the humans who interface with these devices? Con games, scams, and strategic deception are far older than computers, and in the modern era, these techniques can make humans the weakest link in even the most secure system. This episode, security consultant and master social engineer, Christopher Hadnagy, joins us to share his stories and wisdom. He describes what it was like to be a social engineer before the world knew what social engineering was and tells some of his amazing stories from his long career in penetration testing.",
+  },
+  ep68: {
+    cover: "./src/assets/Darknet-Diaries/ep68.jpg",
+    title: "Triton",
+    date: "23 June 2020 ",
+    duration: "73:29",
+    epNum: 68,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV1585058314.mp3?key=0d785fbae128968332820662cdfbcad0&request_event_id=176b98d1-8c8c-4692-9df7-7203e5b6db3f",
+    description:
+      "A mysterious mechanical failure one fateful night in a Saudi Arabian chemical plant leads a cast of operational technology researchers down a strange path towards an uncommon, but grave, threat. In this episode, we hear how these researchers discovered this threat and tried to identify who was responsible for the malware behind it. We also consider how this kind of attack may pose a threat to human life wherever there are manufacturing or public infrastructure facilities around the world.",
+  },
+  ep67: {
+    cover: "./src/assets/Darknet-Diaries/ep67.jpg",
+    title: "The Big House",
+    date: "09 June 2020 ",
+    duration: "40:54",
+    epNum: 67,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV8083777383.mp3?key=161b55473bb9e282d616b064f9d165c4&request_event_id=e64f1e4c-396c-4fe0-ab90-53595bd56271",
+    description:
+      "John Strand is a penetration tester. He’s paid to break into computer networks and buildings to test their security. In this episode we listen to stories he has from doing this type of work.",
+  },
+  ep66: {
+    cover: "./src/assets/Darknet-Diaries/ep66.jpg",
+    title: "Freakyclown",
+    date: "26 May 2020 ",
+    duration: "53:47",
+    epNum: 66,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV5521996184.mp3?key=397f3024bbee72aed8ab3b570fefb7df&request_event_id=cf2b23a9-7f90-4321-a024-4d066f9c2358",
+    description:
+      "Freakyclown is a physical penetration tester. His job is to break into buildings to test the security of the building. In this episode we hear stories of some of these missions he’s been on.",
+  },
+  ep65: {
+    cover: "./src/assets/Darknet-Diaries/ep65.jpg",
+    title: "PSYOP",
+    date: "12 May 2020 ",
+    duration: "71:55",
+    epNum: 65,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV6390502125.mp3?key=b9472b3f7dce625f7f1db69b57e3ca93&request_event_id=7abefa53-6552-4453-a9f9-98ed709cb4e0",
+    description:
+      "PSYOP, or “Psychological Operations”, is something the US military has been doing to foreign audiences for decades. But what exactly is it? And what’s the difference between white, gray, and black PSYOP missions? We talk to PSYOP specialists to learn more.",
+  },
+  ep64: {
+    cover: "./src/assets/Darknet-Diaries/ep64.jpg",
+    title: "The Athens Shadow Games",
+    date: "28 April 2020 ",
+    duration: "74:44",
+    epNum: 64,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV9747880751.mp3?key=f747d7fcead885294fb9eea463abd6b3&request_event_id=e707fcaf-4749-4123-bdc0-d7335bd4dc60",
+    description:
+      "Vodafone Greece is the largest telecom provider in Greece. But in 2004 a scandal within the company would pin them to be top of the news cycle in Greece for weeks. Hackers got in the network. And what they were after took everyone by surprise.",
+  },
+  ep63: {
+    cover: "./src/assets/Darknet-Diaries/ep63.jpg",
+    title: "w0rmer",
+    date: "14 April 2020 ",
+    duration: "56:55",
+    epNum: 63,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV3183643348.mp3?key=4427df55328750564093243d5de4eb7f&request_event_id=3e1ac031-21e9-4a15-b865-dfc4879077e7",
+    description:
+      "The hacker named w0rmer was active within AnonOps. These are Anonymous Operations which often organize and wage attacks on websites or people often with the purpose of social justice. Eventually w0rmer joined in on some of these hacking escapades which resulted in an incredible story that he will one day tell his kids.",
+  },
+  ep62: {
+    cover: "./src/assets/Darknet-Diaries/ep62.jpg",
+    title: "Cam",
+    date: "31 March 2020 ",
+    duration: "61:56",
+    epNum: 62,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV1459627606.mp3?key=3b790853907239514ec1e74be75452b2&request_event_id=a5332fc2-b207-4439-82c9-66d0d4b80da3",
+    description:
+      "Cam’s story is both a cautionary tale and inspirational at the same time. He’s been both an attacker and defender. And not the legal kind of attacker. He has caused half a million dollars in damages with his attacks. Attacks that arose from a feeling of seeing injustices in the world. Listen to his story.",
+  },
+  ep61: {
+    cover: "./src/assets/Darknet-Diaries/ep61.jpg",
+    title: "Samy",
+    date: "17 March 2020 ",
+    duration: "61:11",
+    epNum: 61,
+    audioSource:
+      "https://dcs.megaphone.fm/ADV3775923435.mp3?key=7bbf215b891b854f4fefe7071eaa4f26&request_event_id=cf32811f-42c7-450b-9a30-77dd71dc2dea",
+    description:
+      "Samy Kamkar is a hacker. And while he’s done a lot of stuff, he’s best known for creating the Samy Worm. Which spread its way through a popular social media site and had crazy results.",
+  },
+
   ep60: {
     cover: "./src/assets/Darknet-Diaries/ep60.jpg",
     title: "dawgyg",
@@ -696,19 +1546,4 @@ function getData() {
 }
 getData();
 
-
-*/
-
-/*
-{
-    "ep": {
-        "cover": "./src/assets/Darknet-Diaries/ep50.jpg",
-        "title": "Operation Glowing Symphony",
-        "date": "29 October 2019 ",
-        "duration": "71:10",
-        "epNum": 50,
-        "audioSource": "",
-        "description": "Operation Inherent Resolve was started in 2016 which aimed to combat ISIS. It was a combined joint task force lead by the US military. Operation Inherent Resolve sent troops, ships, and air strikes to Iraq and Syria to fire weapons upon ISIS military. It’s widely known that US military engaged with ISIS in this way. But what you may not have heard, is the story of how the US military also combated ISIS over the Internet. This is the story of how the US hacked ISIS and conducted Operation Glowing Symphony."
-    }
-}
 */
